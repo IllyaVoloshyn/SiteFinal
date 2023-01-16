@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+<body>
+  <div class="been">
+  <a href="index.html"><img class="photo" src="lab16.png"></a>
+   <a href="lab16.1.html"><button class="button button0">Каталог</button></a>
+    <a href="lab16.2.html"><button class="button button1">Контакти</button></a>
+      <a href="lab16.3.html"><button class="button button2">Про нас</button></a>
+        <a href="lab16.5.html"><button class="button button3"><ion-icon class="bbb" name="cart-outline"></ion-icon></button></a>
+        <a href="lab16.41.html" class="button button5">Вхід</a>
+      </div>
+      <div class="gty">
+       <h3 class="gqg">Наша історія</h3>
+     </div>
+ <div class="pronas">
+   <div class="istor1">
+     <div class="estor">
+       <h3 class="oh">1920р</h3>
+     <h3 class="rop">На початку 1920-го проживали в містечку Херцогенаурах Дасслери вирішили організувати сімейну справу - пошиття взуття.  Першою продукцією родини Дасслер були домашні тапочки і ортопедичне взуття для тренувань спортсменів-інвалідів.  На жаль, таких після м'ясорубок Першої світової війни було дуже багато.  Як матеріали використовувалися підручні засоби - верх взуття робили з військового обмундирування, а підошви вирізали зі старих автомобільних покришок.</h3>
+   </div>
+   </div>
+   <div class="istor2">
+   <div class="estor1">
+  <img class="mnb" src="das1.jpg">
+ </div>
+   </div>
+      </div>
+
+      <div class="pronas1">
+        <div class="istor2">
+        <div class="estor2">
+       <img class="mnb" src="das2.jpg">
+      </div>
+        </div>
+        <div class="istor3">
+        <div class="estor3">
+          <h3 class="oh">1924р</h3>
+        <h3 class="rop">	До виробництва підключився і старший брат Адольфа, Рудольф.  В результаті 1 липня 1924 р побачила світ «Взуттєва фабрика братів Дасслер».  Два брати з протилежними характерами прекрасно доповнювали один одного: з одного боку - спокійний і врівноважений виробник Адольф, з іншого - активний і комунікабельний продавець Рудольф.<h3>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div id="Kiev" class="tabcontent12">
+
+
+
+
+    <div class="pronas3">
+      <div class="istor31">
+        <div class="estor31">
+          <h3 class="oh">1925p</h3>
+        <h3 class="rop">	Адольф винайшов і пошив перші в світі футбольні бутси з шипами, які виковували ковалі брати Целяйн.   Футбольна модель виявилася зручною і разом з гімнастичними тапочками стала основною продукцією Дасслеров.   Правда, в масове виробництво була запущена не відразу .</h3>
+      </div>
+      </div>
+      <div class="istor9">
+      <div class="estor9">
+     <img class="mnb" src="das3.jpg">
+    </div>
+      </div>
+         </div>
+
+
+
+    <div class="pronas4">
+      <div class="istor5">
+      <div class="estor5">
+     <img class="mnb" src="das4.jpg">
+    </div>
+      </div>
+      <div class="istor12">
+      <div class="estor12">
+        <h3 class="oh">1939р</h3>
+      <h3 class="rop">	Після початку Другої світової війни, незважаючи на те, що обидва брати Дасслер були переконаними членами нацистської партії, фабрики Дасслеров піддалися конфіскації нацистами, а самі брати відправилися на фронт.  На одній з фабрик нацисти спробували налагодити виробництво ручних протитанкових гранатометів, проте фабричне устаткування було не пристосоване для такого виробництва, тому Адольфа повернули з армії через рік.</h3>
+    </div>
+  </div>
+</div>
+
+
+
+  </div>
+  <div class="mmn">
+  <button class="tablinks button" onclick="openCity(event, 'Kiev')">Показати ще</button>
+</div>
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
